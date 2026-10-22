@@ -1,0 +1,36 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Testing and type-checking caches
+# (htmlcov/ is deliberately NOT ignored: the coverage report is part of the submission)
+.pytest_cache/
+.mypy_cache/
+.coverage
+.ipynb_checkpoints/
+
+# Secrets and local settings
+.env
+.env.*
+*.pem
+*.key
+.claude/settings.local.json
+
+# Quiz history, backups and logs (per-user data)
+.quiz_history.json
+.quiz_history.json.bak
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
